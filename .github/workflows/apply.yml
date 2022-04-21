@@ -1,7 +1,7 @@
 name: Deploy Infrastructure
 
 on:
-  pull-reques:
+  pull-request:
     branches:
       - main
 
