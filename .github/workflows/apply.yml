@@ -2,11 +2,14 @@ name: Deploy Infrastructure
 
 on:
   pull_request:
+    types:
+      - closed
     branches:
       - main
 
-jobs:
+jobs:          
   tf_fmt:
+    if: github.event.pull_request.merged == true
     name: Deploy Site
     runs-on: ubuntu-latest
     steps:
