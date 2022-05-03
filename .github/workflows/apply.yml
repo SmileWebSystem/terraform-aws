@@ -10,7 +10,7 @@ on:
 jobs:          
   tf_fmt:
     if: github.event.pull_request.merged == true
-    name: Deploy Site
+    name: Deploy Infrastructure
     runs-on: ubuntu-latest
     steps:
 
