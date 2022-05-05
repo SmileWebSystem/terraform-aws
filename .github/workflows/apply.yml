@@ -26,7 +26,10 @@ jobs:
 
       - name: Terraform Init
         id: init
+        env:        
+          TF_ACTION_WORKING_DIR: 'terraform'
         run: terraform init
+
       
       - name: Terraform Validate
         id: validate
