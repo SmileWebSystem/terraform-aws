@@ -6,7 +6,7 @@ module "lambda_function" {
   handler       = "index.lambda_handler"
   runtime       = "python3.8"
 
-  source_path = "../src/lambda-function1"
+  source_path = "../src/lambda-function"
 
   tags = {
     Name = "my-lambda-GO"
