@@ -8,6 +8,14 @@ terraform {
 
   required_version = ">=0.14.9"
 
+  cloud {
+    organization = "smile-web-system"
+
+    workspaces {
+      name = "gh-actions-smile"
+    }
+  }
+
 }
 
 provider "aws" {  
