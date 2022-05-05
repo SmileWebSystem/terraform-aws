@@ -9,6 +9,6 @@ module "lambda_function" {
   source_path = "../src/lambda-function1"
 
   tags = {
-    Name = "my-lambda1"
+    Name = "my-lambda-GO"
   }
 }
