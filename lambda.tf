@@ -12,5 +12,4 @@ module "lambda_function" {
     Name = "my-lambda1"
   }
 
-  role = aws_iam_role.lambda_exec.arn
 }
