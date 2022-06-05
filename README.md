@@ -13,4 +13,4 @@ terraform apply -refresh-only
 
 terraform apply
 
-terraform destroy
+terraform destroy 
